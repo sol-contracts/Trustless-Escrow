@@ -1,6 +1,5 @@
 # Trustless-Escrow
 Solidity implementation of a trustless escrow.
-
 Trustless escrow using dual party deposits to facilitate the "trustless" aspect. 
 
 Preliminary testing done.
