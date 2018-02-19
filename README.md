@@ -4,4 +4,4 @@ Trustless escrow using dual party deposits to facilitate the "trustless" aspect.
 
 Preliminary testing done.
 
-To Do: self-destruct once transaction is inactive, write documentation.
+To Do: self-destruct once transaction is inactive, wei to ether, write documentation.
