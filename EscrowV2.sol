@@ -98,7 +98,7 @@ contract Escrow {
     function paySeller() public isBuyer {
         require(depositCheck[buyer] == 1);
         require(depositCheck[seller] == 1);
-        require(amountCheck[msg.sender] == 1);
+        require(amountCheck[buyer] == 1);
         seller.transfer(amount);
         buyer.transfer(deposit);
         seller.transfer(deposit);
@@ -112,7 +112,7 @@ contract Escrow {
     function refundBuyer() public isSeller {
         require(depositCheck[buyer] == 1);
         require(depositCheck[seller] == 1);
-        require(amountCheck[msg.sender] == 1);
+        require(amountCheck[buyer] == 1);
         buyer.transfer(amount);
         seller.transfer(deposit);
         buyer.transfer(deposit);
