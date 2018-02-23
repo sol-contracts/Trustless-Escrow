@@ -74,4 +74,4 @@ Thus the smart contract incentivises both parties to come to an agreement.
 ## Notes
 The input values for deposit and price are converted to ether by the smart contract.
 
-Preliminary testing has been does, however please conduct your own testing before implementation.
+Preliminary testing has been done, however please conduct your own testing before implementation.
