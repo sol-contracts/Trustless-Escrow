@@ -27,17 +27,19 @@ contract Escrow {
     
     
     //modifiers
+    //only buyer can access
     modifier isBuyer() {
         require(msg.sender == buyer);
         _;
     }
     
-    
+    //only seller can access
     modifier isSeller() {
         require(msg.sender == seller);
         _;
     }
     
+    //only the parties involved in the transaction can access.
     modifier ifIsAParty(address aParty) {
         require(isAParty[aParty]);
         _;
