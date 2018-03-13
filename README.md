@@ -27,6 +27,7 @@ Once the deposits and the specified amount (price) has been sent, the smart cont
 
 **or**
 * The seller chooses to terminate the transaction and return the specified amount (price) to the buyer.
+
 Once either of these are triggered the amount (price) is transferred accordingly and the deposits are returned to the parties.
 
 ## Game Theoretical Perspective
